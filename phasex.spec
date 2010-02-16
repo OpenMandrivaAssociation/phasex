@@ -9,7 +9,7 @@
 Name:       %{name}
 Version:    %{version}
 Release:    %{release}
-Summary:    PHASEX -- Phase Harmonic Advanced Synthesis EXperiment
+Summary:    Phase Harmonic Advanced Synthesis EXperiment
 Group:      Sound
 License:    GPLv2
 URL:        http://sysex.net/phasex/
@@ -25,7 +25,7 @@ BuildRequires:  perl
 
 
 %description
-PHASEX is an experimental JACK audio / ALSA MIDI softsynth for Linux
+Experimental JACK audio / ALSA MIDI softsynth for Linux
 with a synth engine built around flexible phase modulation and
 flexible oscillator/LFO sourcing.  Modulations include AM, FM, offset
 PM, and wave select. It comes equipped with a 12db/octave filter
