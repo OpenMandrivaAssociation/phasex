@@ -3,7 +3,7 @@
 %define     version         0.12.0
 %define     beta_version    pre1
 
-%define     release         0.%{beta_version}.%mkrel 1
+%define     release         0.%{beta_version}.%mkrel 2
 
 
 Name:       %{name}
