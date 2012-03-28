@@ -39,6 +39,7 @@ processing capabilities, velocity/aftertouch sensitivity, and more.
 
 
 %build
+perl -pi -e 's/AM_LDFLAGS  =/AM_LDFLAGS  = -lgmodule-2.0 -lX11 /g' src/Makefile.am
 echo _arch=%{_arch} _target_cpu=%{_target_cpu} _build_arch=%{_build_arch}
 aclocal && autoconf && automake && autoheader
 %configure %{?build_32bit:--enable-32bit} --enable-arch=%{_target_cpu} CFLAGS=''
