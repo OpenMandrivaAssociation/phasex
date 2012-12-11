@@ -108,3 +108,21 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/applications/%{desktop_vendor}-phasex.desktop
 %{_datadir}/icons/hicolor/*/apps/phasex-icon.png
 
+
+
+%changelog
+* Wed Mar 28 2012 Frank Kober <emuse@mandriva.org> 0.12.0-0.pre1.3
++ Revision: 788006
+- fix and bump release
+- add missing linked objects to fix build
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.12.0-0.pre1.2mdv2011.0
++ Revision: 614539
+- the mass rebuild of 2010.1 packages
+
+* Tue Feb 16 2010 Frank Kober <emuse@mandriva.org> 0.12.0-0.pre1.1mdv2010.1
++ Revision: 506879
+- import phasex
+- import phasex
+
+
