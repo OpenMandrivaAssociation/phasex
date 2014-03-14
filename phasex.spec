@@ -1,3 +1,5 @@
+%define	debug_package %{nil}
+
 %define     desktop_vendor  sysex
 %define     name            phasex
 %define     version         0.12.0
