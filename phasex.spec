@@ -20,7 +20,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  libalsa-devel
 BuildRequires:  jackit-devel
 BuildRequires:  libsamplerate-devel
-BuildRequires:  gtk2-devel
+BuildRequires:  gtk+2.0-devel
 BuildRequires:  perl
 
 
