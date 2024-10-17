@@ -14,7 +14,7 @@ Release:    %{release}
 Summary:    Phase Harmonic Advanced Synthesis EXperiment
 Group:      Sound
 License:    GPLv2
-URL:        http://sysex.net/phasex/
+URL:        https://sysex.net/phasex/
 
 Source0:    %{name}-%{version}-%{beta_version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot 
